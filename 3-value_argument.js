@@ -2,7 +2,7 @@
 const args = process.argv.slice(2);
 
 // Check if no arguments are provided
-if (args.length === 0) {
+if (args [0] === undefined) {
     console.log("No argument");
 }
 // Check if arguments are provided, then print the first argument
